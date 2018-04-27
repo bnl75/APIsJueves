@@ -27,7 +27,12 @@
     </nav>
   </header>
   <div class="container">
-
+    <center>
+      <h1>FACEBOOK API-WEB</h1>
+      <h2>Plugins Sociales</h2>  
+    </center>
+    
+    <div class="fb-like" data-href="https://bnl75.github.io/APIsJueves/" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
   </div>
   
   <footer class="page-footer blue darken-4" style="position:fixed;bottom:0;left:0;width:100%;">
@@ -39,7 +44,14 @@
     </div>
   </footer>
   
-  
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.12&appId=195992877849196&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
   <!--JavaScript at end of body for optimized loading-->
   <script type="text/javascript" src="js/jquery.js"></script>
